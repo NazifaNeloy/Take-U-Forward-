@@ -33,7 +33,10 @@ All solutions are based on teachings by **Raj Vikramaditya (Striver)**.
   https://takeuforward.org/strivers-a2z-dsa-course/
 
 ---
+#  🤝 Connect With Me
 
+ - 🐙 GitHub: [https://github.com/NazifaNeloy](https://github.com/NazifaNeloy)
+ - 💼 LinkedIn: [Nazifa Neloy](https://www.linkedin.com/in/nazifa-neloy/)
 ## 📂 Repository Structure
 
 The folder structure follows the exact flow of the A2Z playlist:
@@ -53,24 +56,6 @@ Take-U-Forward-/
 ├── 11_Graphs/              # BFS, DFS, topo sort, shortest paths
 ├── 12_DP/                  # Dynamic Programming (1D, 2D, grids)
 └── README.md
-
-
-
-
- 🤝 Connect With Me
-
-If you’re also following **Striver’s sheet** let’s connect!  
-This repo documents my complete journey of mastering **Data Structures & Algorithms** by following the **take U forward** YouTube channel by **Raj Vikramaditya (Striver)**.
-
-Here, you’ll find:
- 🐙 GitHub: [https://github.com/NazifaNeloy](https://github.com/NazifaNeloy)
- 💼 LinkedIn: [Nazifa Neloy](https://www.linkedin.com/in/nazifa-neloy/)
-
-
- ⚠️ Disclaimer
-
-This repository is strictly for educational purposes.
-All credits for problem statements and teaching methodology go to Striver and take U forward.
 
 Happy Coding! 🚀🔥
 
