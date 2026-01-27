@@ -6,8 +6,8 @@ int main() {
 
     for (int i = 1; i < 5; i++) {
         if (a[i] >= a[i - 1]) {
-        } 
-        else {
+            cout << i << ", ";
+        } else {
             return false;
         }
     }
