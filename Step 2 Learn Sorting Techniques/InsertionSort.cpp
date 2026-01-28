@@ -1,27 +1,31 @@
-#include<iostream>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-
-void insertion_sort(int arr[], int n){
-  for (int i = 0; i < n; i++)
-  {
-    int j=i;
-    while(j>0 && arr[j-1]> arr[j]){
-      int temp = arr[j-1];
-      arr[j-1] = arr[j];
-      arr[j] = temp;
-      j--;
+void insertion_sort(vector<int>& a, int n) {
+    for (int i = 0; i < n; i++) {
+        int j = i;
+        while (j > 0 && a[j - 1] > a[j]) {
+            int temp = a[j - 1];
+            a[j - 1] = a[j];
+            a[j] = temp;
+            j--;
+        }
     }
-  }
-  
 }
 
-int main(){
-  int arr[] = {2,3,5,1,9,8,7,6,4,77, 48, 22};
-  int n = sizeof(arr)/ sizeof(arr[0]);
-  insertion_sort(arr, n);
-  for(int ele: arr){
-    cout<< ele<< " ";
-  }
-  return 0;
+int main() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    insertion_sort(a, n);
+
+    for (int ele : a) {
+        cout << ele << " ";
+    }
+    return 0;
 }
