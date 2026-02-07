@@ -15,9 +15,9 @@ int main(){
     }
 
     if(original == rev_num){
-        cout << "Palindrome";
+        cout << "YES";
     } else {
-        cout << "Not Palindrome";
+        cout << "NO";
     }
 
     return 0;
