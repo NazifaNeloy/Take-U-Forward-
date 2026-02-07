@@ -1,20 +1,13 @@
 #include<iostream>
 using namespace std;
 
-
-class sol{
-  public:
-    int count=0;
-    void print(){
-      if(count==10) return;
-      cout<<count<<" ";
-      count++;
-      print();
-    }
-};
+void print(int count){
+  if(count == 11) return;
+  cout << count << " ";
+  print(count + 1);
+}
 
 int main(){
-  sol s;
-  s.print();
+  print(1);
   return 0;
 }
